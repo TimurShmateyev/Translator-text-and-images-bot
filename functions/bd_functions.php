@@ -1,7 +1,7 @@
 <?php
 
 function connect() {
-    $conn = mysqli_connect("localhost", "pmauser", "Timur228@@@", "tshmatz5_timur");
+    $conn = mysqli_connect("localhost", "SomeUser", "SomePassword", "SomeDB");
     if (!$conn) {
         die("Connection failed: " . mysqli_connect_error());
     }
